@@ -1,4 +1,4 @@
-# Jetpack Compose MVVM App ReadMe
+# SampleGithubApp README
 
 SampleGithubApp is a Jetpack Compose application that interacts with GitHub APIs to search for users, repositories, and find repositories of users. It follows the MVVM (Model-View-ViewModel) architecture pattern with repositories, use cases, UI State, and UI events. Using Hilt for dependency injection
 
