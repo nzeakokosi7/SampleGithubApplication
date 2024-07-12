@@ -88,32 +88,12 @@ UI Events are triggered by user interactions (e.g., button clicks, text input). 
 ## 6. Usage and Development
 
 - Clone the repository and open the project in Android Studio.
-- Modify `repositories`, `use cases`, `ViewModels`, and UI components as needed.
-- Implement business logic in use cases and manage data flow between layers.
-- Design UI screens using Jetpack Compose components and observe UI state changes from ViewModel.
+- Ensure that gradle builds successfully, you might need to invalidate cache for a fresh build if it doesn't
+- Run Application
 
 ## 7. Testing
 
 - Run Unit test ViewModelUseCaseTest to test all the core business logic of the application
 
-## 8. Deployment
-
-- Generate signed APKs or use App Bundles for deployment to Google Play Store.
-- Ensure proper versioning, signing configurations, and compliance with Google Play Store policies.
-
-## 9. Troubleshooting
-
-- Refer to Android Studio logs and Gradle Console for build issues.
-- Debug runtime errors using logcat and Android Studio's debugger.
-- Check network connectivity, permissions, and device compatibility for runtime issues.
-
-## 10. Contributing
-
-- Fork the repository, create a new branch, and submit pull requests for feature enhancements or bug fixes.
-- Follow coding standards, write comprehensive tests, and document changes thoroughly.
-
-## 11. License
-
-- Specify the project's license (e.g., Apache 2.0, MIT License) for distribution and usage permissions.
 
 
