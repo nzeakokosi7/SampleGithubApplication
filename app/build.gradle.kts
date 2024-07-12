@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.samplegithubapp"
-        minSdk = 29
+        minSdk = 31
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -84,6 +84,7 @@ dependencies {
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.truth)
     testImplementation(libs.mockk)
+    implementation("androidx.core:core-splashscreen:1.0.1")
 }
 
 kapt {
